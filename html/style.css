@@ -1,0 +1,167 @@
+body {
+  text-align: center;
+  background: #dddddd;
+}
+
+p {
+  font-family: Rubik;
+  font-size: 18px;
+}
+p.clqbtt {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+a.list {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: none;
+  margin-top: 12px;
+}
+a.list:link {
+  color: #240294;
+}
+a.list:visited {
+  color: #d30d0d;
+}
+a.list:hover {
+  color: #660000d8;
+  text-decoration: underline;
+}
+a.vtlist {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: none;
+  margin-top: 12px;
+}
+a.vtlist:link {
+  color: #240294;
+}
+a.vtlist:visited {
+  color: #d30d0d;
+}
+a.vtlist:hover {
+  color: #660000d8;
+  text-decoration: underline;
+}
+.index_padding {
+  padding: 0% 10% 0% 10%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  flex-direction: row;
+}
+.image-container {
+  width: 260px;
+  height: 260px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 130px;
+  justify-content: center;
+  transition: 0.5s;
+}
+.image-container .caption {
+  bottom: 0;
+  left: 0;
+  width: 115%;
+  background: #dddddd;
+  color: #ff00ff;
+  text-shadow: 0 0 20px #f703f7, 0 0 30px #ff00ff, 0 0 30px #ff00ff,
+    0 0 45px #ff00fffb;
+  font-family: Rubik;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.7s;
+  padding: 9px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.image-container img:hover {
+  width: 280px;
+  height: 280px;
+  transition: 0.5s;
+  border-radius: 140px;
+  box-shadow: 0 0 10px #f30606, 0 0 15px #ff00ff, 0 0 15px #ff00ff,
+    0 0 25px #f30606;
+}
+
+.image-container a:hover + .caption {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+em {
+  font-family: Comfortaa, Times New Roman, Sans-Serif;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #ff00ff;
+  stop-color: #d30d0d;
+  flood-color: #240294;
+}
+
+em:hover {
+  color: #ff0000; /* Change color on hover */
+  text-shadow: 0 0 10px #f306f3, 0 0 15px #ff00ff, 0 0 20px #ff00ff,
+    0 0 30px #ff00ff; /* Add a glowing effect */
+}
+
+.body {
+  padding-bottom: 40px;
+}
+
+.rick_vale {
+  padding-top: 18px;
+}
+
+.rick_vale a.vtlist:hover {
+  font-size: 130%;
+  transition: 0.3s;
+}
+
+.header {
+  width: fit-content;
+  height: fit-content;
+  display: contents;
+}
+
+.header h1 {
+  display: contents;
+  bottom: 0%;
+  left: 0%;
+  font-family: Rubik;
+  color: #ff00ff;
+  stop-color: #d30d0d;
+  flood-color: #240294;
+}
+
+.header h1:hover {
+  color: #cd00d4;
+  text-shadow: 0 0 15px #f306f3, 0 0 25px #ff00ff, 0 0 25px #ff00ff,
+    0 0 40px #ff00ff;
+}
+
+.idx_hr {
+  width: 100%;
+  height: 1px;
+  background-color: #ff00ff;
+  border: 0;
+  margin-top: auto;
+}
+
+.idx_img_link {
+  display: flex;
+  padding: 0px 0px 2px 2px;
+}

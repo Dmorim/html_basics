@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  background: #dddddd;
+}
+
+.edu_h1 {
+  background: linear-gradient(to right, #ff00ff, #d30d0d, #0000ff);
+  background-clip: text;
+  color: transparent;
+  margin: auto;
+}
+
+.edu_back {
+  font-family: Rubik;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.edu_bot {
+  position: relative;
+  text-align: left;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+}
+
+.edu_bot img {
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.edu_bot p {
+  font-family: Rubik;
+  font-size: 16px;
+  text-align: right;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.edu_images {
+  display: flex;
+}
+
+.edu_img {
+  text-align: left;
+  margin-top: 10px;
+  width: 340px;
+  height: 340px;
+}
+
+.edu_img img {
+  width: 340px;
+  height: 340px;
+  border-radius: 5px;
+}
+
+.edu_spot {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.edu_spot img {
+  width: 80;
+  height: 80;
+}
